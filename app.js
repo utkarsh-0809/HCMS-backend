@@ -26,7 +26,7 @@ app.use(cookieParser());
 app.use(
   // cors({origin:"*"})
   cors({
-    origin: ["http://localhost:5173", "http://localhost:5000"], // Correct syntax
+    origin: ["https://aanganasha-8fpxuruy7-utkarsh-raghuvanshis-projects.vercel.app/","http://localhost:5173", "http://localhost:5000"], // Correct syntax
     credentials: true,
   })
 );
